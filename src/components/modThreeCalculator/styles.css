@@ -1,0 +1,77 @@
+.mod-three-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #d1cccc;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 4px;
+    min-height: 210px;
+}
+
+h1 {
+    color: slategrey;
+    font-size: 22px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: inset 0 -2px 0 grey;
+    outline: none;
+}
+
+.mod-three-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 6px;
+    filter: brightness(100%);
+    transition: filter 0.3s ease;
+}
+
+.submit-button {
+    background-color: #377f86;
+    box-shadow: inset 0 -2px 0 #1a5560;
+}
+
+.reset-button {
+    background-color: #c64b00;
+    box-shadow: inset 0 -2px 0 #91372e;
+}
+
+.submit-button:hover,
+.reset-button:hover {
+    filter: brightness(130%);
+}
+
+.error {
+    color: red;
+    margin: 0;
+}
+
+.decimal-value {
+    font-size: 0.8rem;
+    margin: 0 0 12px 0;
+}
+
+.result {
+    font-weight: bolder;
+    margin: 0;
+}
+
+.visualize-button {
+    cursor: pointer;
+    width: 100px;
+    margin-top: 20px;
+}

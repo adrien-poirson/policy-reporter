@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Spartan", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.app {
+    color: #34342e;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+}
